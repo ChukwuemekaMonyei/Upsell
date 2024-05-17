@@ -1,0 +1,1107 @@
+* {
+    box-sizing: border-box;
+    font-family: sans;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+  color: white;
+  background-color: orange;
+}
+
+body {
+    background-color: #FFF6EE;
+}
+
+#demo {
+    font-size: 5rem;
+    color: brown;
+}
+
+#Hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.hero {
+    max-width: 15rem;
+    margin: auto;
+    padding: 12% 0px;   /**/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 1.5rem;
+    color: #FFF6EE;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+}
+
+.para, .para2, .para3 {
+    font-family: TT Ramillas;
+    font-size: 1.7rem;
+    font-weight: light;
+    color: #FFF6EE;
+    line-height: 1.4;
+}
+
+a[class="btn"] {
+    position: relative;
+    top: 3rem;
+    padding: 10px 25px;
+    background-color: #DFFFBF;
+    border: none;
+    border-radius: 2rem;
+    transition: 5s ease;
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+}
+
+a[class="btn"]:hover {
+    border: 2px ridge #FFF6EE;
+    transform: scale(1.1);
+}
+
+#Consumer {
+    max-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.6rem;
+}
+
+.consumer-img {
+    background-color: #DFFFBF;
+    padding: 35px 35px 31px;
+}
+
+.consumer-img img {
+    width: 550px;
+    height: 550px;
+}
+
+.consumer {
+    max-width: 49%;
+    margin: auto;
+    text-align: center;
+}
+
+.para2 {
+    color: #000;
+    margin-top: 3rem;
+    line-height: 1;
+}
+
+.para3 {
+    color: #000;
+    margin-top: 1.8rem;
+}
+
+.sub {
+    font-family: serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#Upsell {
+    margin-top:13px;
+    padding-bottom: 25px;
+    background-image: url(images/Upsell.png);
+    height: auto;
+}
+
+.sub2 {
+    text-align: center;
+    color: #DFFFBF;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.display {
+    display: inline-flex;
+    margin: 0px 100px;
+}
+
+.segments {
+    max-width: 40%;
+    height: auto;
+    background-color: #FFF6EE;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0px 5rem;
+    padding: 25px 0px;
+}
+
+.segments h2 {
+    margin: 15px;
+    word-spacing: 2px;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.segments .seg1 {
+     padding: 20px;
+}
+
+.seg1 h3 {
+    font-size: 2rem;
+}
+
+.seg1 ul {
+    padding-top: 8px;
+    padding-left: 60px;
+    font-size: 1.1rem;
+}
+
+.abt-comm {
+    max-width: 49%;
+}
+
+
+#Community {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+
+.comm-header h2 {
+    line-height: 1.1;
+    font-size: 4rem;
+    color: #FFF6EE;
+    padding: 30% 23%;
+}
+
+.comm-header {
+    max-width: 48%;
+    height: 100vh;
+    background-image: url(images/Community.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abt-comm h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.abt-comm p {
+    font-size: 1.5rem;
+    padding-right: 25px;
+    font-weight: 100;
+}
+
+#Level {
+    background-image: url(images/Level.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+#Level h2 {
+    text-align: center;
+    padding: 25px;
+    color: #FFF6EE;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+}
+
+.level {
+    background-color: #FFF6EE;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 30%;
+    height: 450px;
+    padding: 3rem 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.level h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.level h4 {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    line-height: 1.1;
+}
+
+button .born:first-child {
+    background-color: #DFFFBF;
+    border: 1px solid;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    margin-top: 7rem;
+}
+
+
+a[target="_blank"] {
+    background-color: #DFFFBF;
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.first {
+    position: relative;
+    top: 11rem;
+}
+
+.second {
+    position: relative;
+    top: 8.5rem;
+}
+
+.third {
+    position: relative;
+    top: 6rem;
+}
+
+#Footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.move {
+    background-color: #DFFFBF;
+    padding: 2.5rem 0px;
+}
+
+.move h2 {
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+#Footer hr {
+    margin-top: 0px;
+}
+
+
+.contact {
+    padding: 2.5rem 0px 1rem;
+    font-weight: normal;
+    font-size: 1.3rem;
+    width: 400px;
+    margin: auto;
+    height: auto;
+}
+
+.contact .paragraph {
+    font-size: 2rem;
+    margin-top: 1.9rem;
+}
+
+.contact .paragraph-two {
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.socials {
+    margin: 20px 20px 0px;
+    text-decoration: none;
+    color: #000;
+    justify-content: space-around;
+}
+
+.socials a {
+    padding: 7px;
+    font-size: 1.6rem;
+    color: #FFF6EE;
+    background-color: #000;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+#Footer .Logo {
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.copyright {
+    font-size: 1rem;
+    text-align: center;
+    margin: 100px 0px 30px;
+    color: #0000ff85;
+}
+
+/*****************************************talent 1024px *****************************************************/
+
+@media (max-width: 1024px) {
+    #Consumer {
+        display: inline-flex;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .consumer-img {
+        padding: 13px;
+    }
+
+    .consumer-img img {
+        width: 470px;
+        height: 500px;
+    }
+
+    .consumer {
+        margin: auto 30px;
+    }
+
+    #Upsell {
+        margin-top: 0px;
+        padding-bottom: 25px;
+        background-image: url(images/Upsell.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .display {
+        display: flex;
+        margin: 0px;
+    }
+    
+    .segments {
+        max-width: 40%;
+        height: auto;
+        background-color: #FFF6EE;
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin: 0px 5rem;
+        padding: 25px 0px;
+    }
+    
+    .segments h2 {
+        margin: 15px;
+        word-spacing: 2px;
+        font-family: serif;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+    
+    .abt-comm {
+        max-width: 49%;
+    }
+    
+    
+    #Community {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .comm-header h2 {
+        line-height: 1.1;
+        font-size: 4rem;
+        color: #FFF6EE;
+        padding: 30% 23%;
+    }
+    
+    .comm-header {
+        max-width: 48%;
+        height: 100vh;
+        background-image: url(images/Community.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .abt-comm h3 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        line-height: 2;
+    }
+    
+    .abt-comm p {
+        font-size: 1.5rem;
+        padding-right: 25px;
+        font-weight: 100;
+    }
+
+    .socials a {
+        margin-left: 10px;
+    }
+    
+}
+
+
+/***************************************** talent 849px *****************************************************/
+
+@media (max-width: 849px) {
+    .hero {
+        padding-top: 20%;
+    }
+
+    #Consumer {
+        display: inline-flex;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .consumer-img {
+        padding: 17.5px;
+    }
+
+    .consumer-img img {
+        width: 345px;
+        height: 450px;
+    }
+
+    #Upsell {
+        margin: 0;
+        background-image: url(images/Upsell.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .display {
+        margin-top: 12px;
+        margin-left: 80px;
+        position: relative;
+        left: -1rem;
+    }
+
+    .segments {
+        max-width: 40%;
+        height: auto;
+        margin: 0px 2rem;
+        padding: 15px 0px;
+    }
+    
+    .segments h2 {
+      /* remember to put back margin */
+        word-spacing: 1px;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+    
+    .segments .seg1 {
+         padding:   10px;
+    }
+    
+    .seg1 h3 {
+        font-size: 1rem;
+    }
+    
+    .seg1 ul {
+        padding-top: 8px;
+        padding-left: 60px;
+        font-size: 1.1rem;
+    }
+
+    #Community {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+    
+    .comm-header {
+        max-width: 420px;
+        height: auto;
+        background-image: url(images/Community.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .comm-header h2 {
+        line-height: 1.1;
+        font-size: 2rem;
+        color: #FFF6EE;
+    }
+        
+    .abt-comm {
+        max-width: 420px;
+        padding-left: 30px;
+        margin: 0px;
+    }
+    
+    .abt-comm h3 {
+        margin-top: 2rem;
+        font-size: 1rem;
+        line-height: 2;
+    }
+    
+    .abt-comm p {
+        font-size: 1rem;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    #Level {
+        background-image: url(images/Level.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+    
+    
+    #Level h2 {
+        text-align: center;
+        padding: 25px;
+        color: #FFF6EE;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    
+    .container {
+        display: inline-flex;
+    }
+    
+    .level {
+        background-color: #FFF6EE;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 1.5rem 10px;
+        text-align: center;
+    }
+    
+    .level h3 {
+        font-size: 1.5rem;
+    }
+    
+    .level h4 {
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .container p {
+        line-height: 2;
+    }
+    
+    .first {
+        position: relative;
+        top: 12rem;
+    }
+    
+    .second {
+        position: relative;
+        top: 8.5rem;
+    }
+    
+    .third {
+        position: relative;
+        top: 5rem;
+    }
+
+    .socials a {
+        margin-left: 10px;
+    }
+    
+}
+
+/***************************************** talent 747px *****************************************************/
+
+@media (max-width: 747px) {
+    #Consumer {
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    
+    .consumer-img {
+        background-color: #DFFFBF;
+        padding: 15px;
+    }
+    
+    .consumer-img img {
+        width: 50%px;
+        height: 400px;
+    }
+    
+    .consumer {
+        max-width: 49%;
+        margin: auto;
+        padding: 0px 10px;
+        text-align: center;
+    }
+
+    .para2  {
+        margin-top: 1.4rem;
+        font-size: 1.3rem;
+    }
+
+    .para3 {
+        font-size: 1.7rem;
+    }
+    
+    .sub {
+        font-family: serif;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .display {
+        display: flex;
+        position: relative;
+        left: -2rem;
+    }
+
+    
+#Level {
+    background-image: url(images/Level.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+#Level h2 {
+    text-align: center;
+    padding: 25px;
+    color: #FFF6EE;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.level {
+    background-color: #FFF6EE;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    padding: 3rem 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+    
+}
+
+
+/***************************************** talent 500px *****************************************************/
+
+@media (max-width: 500px) {
+    #Consumer {
+        max-height: 100vh;
+        width: 100%;
+        display: block;
+    }
+    
+    .consumer-img {
+        background-color: #DFFFBF;
+        padding: 0px 35px 31px;
+        margin: 0px 10px 30px;
+    }
+    
+    .consumer-img img {
+        width: 100%;
+        height: 550px;
+    }
+    
+    .consumer {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .para2 {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .sub {
+        font-size: 1.4rem;
+    }
+
+    #Upsell {
+        margin-top: 450px;
+        padding-bottom: 25px;
+        background-image: url(images/Upsell.png);
+        height: auto;
+    }
+    
+    .sub2 {
+        text-align: center;
+        color: #DFFFBF;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+    
+    .display {
+        display: block;
+    }
+    
+    .segments {
+        max-width: 100%;
+        height: 380px;
+        background-color: #FFF6EE;
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        right: 35px;
+        padding: 25px 0px;
+    }
+    
+    .segments h2 {
+        padding: 10px;
+        font-size: 1.33rem;
+    }
+
+    .abt-comm {
+        max-width: 100%;
+    }
+    
+    
+    #Community {
+        display: block;
+    }
+    
+    
+    .comm-header h2 {
+        margin: auto;
+    }
+    
+    .comm-header {
+        max-width: 100%;
+        height: 80vh;
+        background-image: url(images/Community.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #Level {
+        padding-bottom: 30px;
+    }
+
+    .level {
+        width: 70%;
+        height: 350px;
+        margin: 20px 70px auto;
+    }
+
+    .level h3 {
+        font-size: 1.3rem;
+        line-height: 1.3;
+    }
+    
+    .level h4 {
+        margin-bottom: 1.3rem;
+        font-size: 1.1rem;
+    }
+    
+    .container p {
+        font-size: 1rem;
+        font-weight: lighter;
+        padding-bottom: 10px;
+        line-height: 1.1;
+    }
+
+    .first {
+        position: relative;
+        top: 8rem;
+    }
+    
+    .second {
+        position: relative;
+        top: 6.5rem;
+    }
+
+    .move {
+        padding: 2.5rem 0px;
+    }
+    
+    .move h2 {
+        font-size: 2.5rem;
+        font-weight: normal;
+    }
+
+    .socials a {
+        font-size: 1.35rem;
+    }
+    
+    
+}
+
+
+
+/***************************************** mobile 360px *****************************************************/
+
+
+@media (max-width: 360px) {
+  .hero {
+        padding-top: 50%;
+    }
+  
+  #Consumer {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+  
+  .consumer-img {
+    background-color: #DFFFBF;
+    padding: 0px 10px 10px;
+    margin: 0px 15px 20px;
+    }
+  
+  .consumer-img img {
+        width: 100%;
+        height: 400px;
+       
+    }
+  .consumer {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 30px 10px;
+    text-align: center;
+    }
+
+  
+  
+
+  .sub {
+    font-family: serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .para2, .para3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+  
+      #Upsell {
+        margin-top: 60px;
+        background-image: url(images/Upsell.png);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+  
+  .sub2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.1rem;
+  }
+
+    .display {
+        display: block;
+        position: relative;
+        left: .08rem;
+    }
+
+    .segments {
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto auto;
+    }
+    
+    .segments h2 {
+        margin: 0px;
+        padding-left: 25px;
+        word-spacing: 1px;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .segments .seg1 {
+         padding:   10px;
+    }
+    
+    .seg1 h3 {
+        font-size: 1rem;
+    }
+    
+    .seg1 ul {
+
+        font-size: 1.1rem;
+    }
+
+
+#Community {
+    display: block;
+}
+
+
+.comm-header h2 {
+    line-height: 1.1;
+    font-size: 2rem;
+    color: #FFF6EE;
+    padding: 50% 23%;
+}
+
+.comm-header {
+    max-width: 100%;
+    height: 70vh;
+    background-image: url(images/Community.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  #Level {
+    background-image: url(images/Level.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+#Level h2 {
+    text-align: center;
+    padding: 25px;
+    color: #FFF6EE;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.container {
+    display: block;
+}
+
+.level {
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+}
+  .level {
+    background-color: #FFF6EE;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 90%;
+    height: 60vh;
+    padding: 1.7rem 10px;
+    text-align: center;
+    margin: 15px auto auto;
+}
+
+.level h3 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+.level h4 {
+    margin-bottom: 1.8rem;
+    font-size: 1.3rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    line-height: 1.1;
+}
+  
+.first {
+    position: relative;
+    top: 8rem;
+}
+
+.second {
+    position: relative;
+    top: 5rem;
+}
+
+.third {
+    position: relative;
+    top: 2rem;
+}
+  #Footer {
+    width: 100%;
+}
+
+.move {
+    background-color: #DFFFBF;
+    padding: 2rem 0px;
+}
+
+.move h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+#Footer hr {
+    margin-top: 0px;
+}
+
+
+.contact {
+    padding: 2.5rem 0px 1rem;
+    font-weight: normal;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.contact .paragraph {
+    font-size: 1.5rem;
+    margin-top: 1.9rem;
+}
+
+.contact .paragraph-two {
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+}
+
+.socials a {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+}
