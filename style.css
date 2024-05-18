@@ -879,8 +879,8 @@ a[target="_blank"] {
 
 @media (max-width: 360px) {
 
-  html {
-      overflow-x: hidden;
+  body {
+      overflow: none;
   }
   .hero {
         padding-top: 50%;
