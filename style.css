@@ -456,6 +456,21 @@ a[target="_blank"] {
         font-weight: 100;
     }
 
+    .first {
+        position: relative;
+        top: 8rem;
+    }
+    
+    .second {
+        position: relative;
+        top: 6rem;
+    }
+    
+    .third {
+        position: relative;
+        top: 4rem;
+    }
+
     .socials a {
         margin-left: 10px;
     }
