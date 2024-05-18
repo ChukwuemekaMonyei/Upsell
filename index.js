@@ -7,6 +7,6 @@ ScrollReveal({
 
 ScrollReveal().reveal('.Logo, .para, .consumer-img, .sub2, .comm-header, .communityhd, .level-header, #Footer', { origin: 'top' });
 
-ScrollReveal().reveal('.consumer, .abt-comm', { origin: 'bottom' });
+ScrollReveal().reveal('.consumer, .abt-comm, .son', { origin: 'bottom' });
 
 ScrollReveal().reveal('.run, .sun', { origin: 'left' });
