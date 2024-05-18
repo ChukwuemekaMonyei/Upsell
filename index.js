@@ -10,5 +10,3 @@ ScrollReveal().reveal('.Logo, .para, .consumer-img, .sub2, .comm-header, .commun
 ScrollReveal().reveal('.consumer, .abt-comm', { origin: 'bottom' });
 
 ScrollReveal().reveal('.run, .sun', { origin: 'left' });
-
-ScrollReveal().reveal('.ran, .son', { origin: 'right' });
