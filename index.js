@@ -1,5 +1,3 @@
-window.document.getElementById('demo').innerHTML = window.innerWidth + "px";
-
 ScrollReveal({ 
     reset: true,
     distance: '80px',
