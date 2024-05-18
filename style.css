@@ -877,11 +877,7 @@ a[target="_blank"] {
 /***************************************** mobile 360px *****************************************************/
 
 
-@media (max-width: 360px) {
-
-  body {
-      overflow: none;
-  }
+@media (max-width: 362px) {
   .hero {
         padding-top: 50%;
     }
